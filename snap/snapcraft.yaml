@@ -28,6 +28,7 @@ parts:
       - va-driver-all
       - libegl1
       - libgles2
+      - libglx-mesa0
     organize:
       'usr/lib/${SNAPCRAFT_ARCH_TRIPLET}/dri/*': egl/dri/
       'usr/lib/${SNAPCRAFT_ARCH_TRIPLET}/*.so*': egl/lib/
@@ -60,6 +61,7 @@ parts:
           - va-driver-all:i386
           - libegl1:i386
           - libgles2:i386
+          - libglx-mesa0:i386
     organize:
       'usr/lib/i386-linux-gnu/dri/*': egl/dri-i386/
       'usr/lib/i386-linux-gnu/*.so*': egl/lib-i386/
