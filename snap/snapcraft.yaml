@@ -70,6 +70,7 @@ parts:
       - egl/dri-i386*
     stage:
       - -usr/share/doc
+      - -usr/share/lintian/overrides/libgbm1
 
 slots:
   graphics-core20:
